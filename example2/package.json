@@ -1,0 +1,15 @@
+{
+  "name": "example2",
+  "version": "1.0.0",
+  "description": "https://medium.com/the-node-js-collection/native-extensions-for-node-js-767e221b3d26",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^3.0.2"
+  }
+}
