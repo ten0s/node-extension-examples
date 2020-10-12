@@ -4,5 +4,5 @@ https://medium.com/the-node-js-collection/native-extensions-for-node-js-767e221b
 
 ```
 $ npm install
-$ node src/hello.js
+$ node index.js
 ```
