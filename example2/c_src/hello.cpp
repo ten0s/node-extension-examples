@@ -6,9 +6,9 @@ Napi::String SayHi(const Napi::CallbackInfo& info) {
   return Napi::String::New(env, "Hi!");
 }
 
-Napi::Object init(Napi::Env env, Napi::Object exports) {
-    exports.Set(Napi::String::New(env, "sayHi"), Napi::Function::New(env, SayHi));
+Napi::Object Init(Napi::Env env, Napi::Object exports) {
+    exports.Set("sayHi", Napi::Function::New(env, SayHi));
     return exports;
 };
 
-NODE_API_MODULE(hello, init);
+NODE_API_MODULE(NODE_GYP_MODULE_NAME, Init);
